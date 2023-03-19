@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Registration Page Design</title>
+</head>
+<!-- 1st Row Facebook Logo + UserId + Password + LogIn Button -->
+<body>
+  <table border="0" width="100%" height="100%" >
+    <tr style="background-color: #3B5998;" >
+      <td>
+        <table border="0" width="100%" height="40px">
+          <tr width="100%">
+            <td width="60%" height="40px" colspan="4" style="padding-left: 200px;" >
+              <img src="./Images/fb logo registration.png" alt="FB Logo" >
+            </td>
+            <td style="padding-bottom: 20px;">
+              <form action="">
+                <div style="color:white">
+                  <label for="email_or_phone"> Email or Phone </label><br>
+                  <input type="text" id="email_or_phone" name="email_or_phone">
+                </div>
+                </form>
+              </td>
+              <td>
+                <form action="" style="padding-top: 20px;">
+                  <div style="color: white;">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                  </div>
+                </form><br>
+                <a style="color:white" href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" target="_self"> forgotten password?</a> 
+              </td>
+                
+            <td width="10%">
+              <!-- <button style="background-color: #3B5998;color:white">LogIn</button> -->
+              <img src="./Images/FB user logIn Button ss.png" alt="FB login Button">
+            </td>
+          </tr>
+        </table>              
+    </tr>
+
+    <tr style="background-color: #F0F2F7;" >
+      <td colspan="2">
+        <table border="0" width="100%">
+          <tr>
+              <td style="text-align: center;width: 60%;height: 490px;padding-top: 10px;">
+              <h2 style="color:#1C4E97" >Facebook helps you connect and share with the <br> people in your life</h2><br>
+              <img src="./Images/fb user pic.png" alt="FB Multiple User Image">
+               </td>
+
+            <td width="40%">
+
+              <h1>Create an Account</h1>
+              <h3> It's quick and easy</h3>
+              <form action="">
+                <div>
+                  <!-- <label for="firstname">First Name</label> -->
+                <input type="text" id="firstname" name="firstname" placeholder="First Name">
+                <input type="text" id="surname" name="surname" placeholder="Sur Name" required>
+                </div><br>
+                <div>
+                  <input type="text" id="mobile_number_or_email_address" name="mobile_number_or_email_address" placeholder="Mobile Number or Email address" size="46px" required>                  
+                </div><br>
+                
+                <div>
+                  <input type="password" id="new_password" name="new_password" placeholder="New Password" size="46px" required>
+
+                </div><br>
+
+
+                <div>
+                  <label for="birthday"><b>Birthday</b> </label><br>
+                  <select id="day" name="day">
+                    <option selected disabled>Day</option>
+                    <option value="">1</option> <!--[shift+alt+down arrow => Copy&paste] -->
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                  </select>
+                  <select id="month" name="month">
+                    <option selected disabled>Month</option>
+                    <option value="jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="mar">Mar</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="jun">Jun</option>
+                    <option value="july">Jul</option>
+                    <option value="aug">Aug</option>
+                    <option value="sept">Sept</option>
+                    <option value="oct">Oct</option>
+                    <option value="nov">Nov</option>
+                    <option value="dec">Dec</option>
+                  </select>
+                  <select id="year" name="year">
+                    <option selected disabled>Year</option>
+                    <option value="">1990</option>
+                    <option value="">1991</option>
+                    <option value="">1992</option>
+                    <option value="">1993</option>
+                    <option value="">1994</option>
+                    <option value="">1995</option>
+                    <option value="">1996</option>
+                    <option value="">1997</option>
+                    <option value="">1998</option>
+                    <option value="">1999</option>
+                    <option value="">2000</option>
+                    <option value="">2001</option>
+                    <option value="">2002</option>
+                    <option value="">2003</option>
+                    <option value="">2004</option>
+                    <option value="">2005</option>
+            
+                  </select>
+                </div><br>
+                <div>
+                  <label for="gender"><b>Gender</b> </label><br>
+                  <input type="radio" id="gender" name="gender" value="female">Female
+                  <input type="radio" id="gender" name="gender" value="male">Male
+                  <input type="radio" id="gender" name="gender" value="custom">Custom
+                </div><br>
+                
+              </form>
+                <p>By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update" target="blank">Terms </a>, <a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry="  target="blank"> Data Policy</a> and <br> <a href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0" target="blank">Cookie Policy</a>. You may receive SMS notifications from us and <br>can opt out at any time</p>
+              
+                <img src="./Images/fb sign Up button.png" alt="Sign Up Button" >
+            </td>
+          </tr>
+        </table>
+      </td>
+           
+    </tr>
+        
+     
+  </table>
+
+
+
+</body>
+</html>
+
+<!-- Keyboard Shortcuts Used 
+ 1.Ctrl+Shift+F => Format Full Code 
+2.Ctrl+Shift+W => Close all active VS code at a time
+3.Shift+alt+arrow key(up/down) => Duplicate/copy&paste
+4.Ctrl+slash(/) => Comment
+5.Ctrl+spacebar => showing Suggestions -->
+
